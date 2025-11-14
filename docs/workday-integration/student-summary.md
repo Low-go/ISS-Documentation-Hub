@@ -6,7 +6,7 @@ sidebar_position: 3
 
 After clicking on a student profile, the ISS office should have access to a plethora of information on the site. The initial page you land on is called **Summary**.
 
-![Student Summary Page](images\student-summary.jpg)
+![Student Summary Page](images\student-summary.png)
 *The Student Summary page overview*
 
 ## Key Information on Summary

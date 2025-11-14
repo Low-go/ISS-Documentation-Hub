@@ -68,6 +68,10 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    'plugin-image-zoom',
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',

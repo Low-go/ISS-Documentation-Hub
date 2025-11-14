@@ -16,7 +16,7 @@ This section displays the addresses the student has configured. Available addres
 - **Billing**
 - **Shipping**
 
-<!-- ![Contact Information Page](./img/contact-info.png) -->
+![Contact Information Page](images\contact-info.png)
 *Student contact information overview*
 
 :::warning Residential Address Not Available
@@ -36,7 +36,7 @@ To view emergency contacts:
 
 1. Click the **Friends and Family** header
 
-<!-- ![Emergency Contacts](./img/emergency-contacts.png) -->
+![Emergency Contacts](images\emergency-contact.png)
 *Emergency contacts display*
 
 This shows all emergency contacts the student has provided, which is essential for visa documentation and emergency situations.
