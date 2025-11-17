@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ISS Documentation Hub',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Supporting International Students at BYUH',
+  favicon: 'img/byuh-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -81,8 +81,8 @@ const config: Config = {
     navbar: {
       title: 'ISS Documentation Hub',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'BYUH Logo',
+        src: 'img/byuh-logo.png',
       },
       items: [
         {
@@ -100,7 +100,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Docs',
@@ -156,3 +156,7 @@ const config: Config = {
 };
 
 export default config;
+
+
+
+

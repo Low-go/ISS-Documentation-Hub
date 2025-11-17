@@ -22,6 +22,32 @@ function HomepageHeader() {
   );
 }
 
+function WelcomeSection() {
+  return (
+    <section className={styles.welcome}>
+      <div className="container">
+        <div className={styles.welcomeContent}>
+          <Heading as="h2" className={styles.welcomeTitle}>
+            Welcome
+          </Heading>
+          <p className={styles.welcomeText}>
+            This documentation hub provides comprehensive resources for international 
+            students at BYU-Hawaii. Find guides on maintaining your visa status, 
+            employment authorization, and essential student services.
+          </p>
+          <div className={styles.ctaContainer}>
+            <Link
+              className={styles.ctaButton}
+              to="/docs/intro">
+              Get Started →
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -30,7 +56,8 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+
+        <WelcomeSection />
       </main>
     </Layout>
   );

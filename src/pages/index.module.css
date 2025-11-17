@@ -2,22 +2,73 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 2.5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #ba0c2f;
+  color: white;  
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+
+.welcome {
+  padding: 8rem 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.welcomeContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcomeTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.04em;
+}
+
+.welcomeText {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.ctaContainer {
+  margin-top: 3rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.2s ease;
+}
+
+.ctaButton:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    padding: 4rem 1.5rem;
   }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+  .welcomeTitle {
+    font-size: 2.5rem;
+  }
+  
+  .welcomeText {
+    font-size: 1.125rem;
+  }
 }

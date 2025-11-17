@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Immigration Guidance',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Comprehensive resources for maintaining your F-1 or J-1 status, 
+        visa information, and travel guidelines for international students at BYUH.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Student Resources',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Find forms, procedures, and step-by-step guides for employment authorization,
+        OPT applications, and other essential student services.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Always Current',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Documentation maintained by the ISS office to ensure you have the most 
+        up-to-date information on immigration policies and procedures.
       </>
     ),
   },
