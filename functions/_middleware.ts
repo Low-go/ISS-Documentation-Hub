@@ -24,7 +24,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         status: 302,
         headers: {
           'Location': '/',
-          'Set-Cookie': 'auth=valid; Path=/; HttpOnly; Secure; Max-Age=86400; SameSite=Strict'
+          'Set-Cookie': 'auth=valid; Path=/; HttpOnly; Secure; Max-Age=20000; SameSite=Strict'
         }
       });
     } else {
