@@ -22,6 +22,8 @@ When you click on **Immigration Documents**, you'll see a dropdown menu displayi
 
 These documents are organized chronologically, allowing you to track a student's immigration history throughout their time at the university.
 
+![Immigration Documents Gif](images/immigration-documents.gif)
+
 ## Student Documents
 
 The **Student Documents** subsection contains non-immigration related files such as:
@@ -30,6 +32,9 @@ The **Student Documents** subsection contains non-immigration related files such
 - Internship documentation
 - Financial documents
 - Supporting materials
+
+
+![Immigration Documents Gif](images/student-documents.gif)
 
 ## Unindexed Documents
 

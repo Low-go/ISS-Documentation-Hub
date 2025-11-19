@@ -8,7 +8,7 @@ Much of your work in Sunapsis will involve individual student cases. Whether you
 
 ## Searching for a Student
 
-![Profile Managment](images/welcome2.png)
+![Profile Managment](images/student-search.gif)
 
 To locate a student profile:
 

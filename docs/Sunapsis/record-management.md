@@ -12,7 +12,19 @@ Exercise extreme caution when deleting any information. You must have express ap
 
 ## Biographical Information
 
+![Record Management Biographical](images/record-management-biographical.gif)
+
 This subsection manages a student's core personal information, including:
+
+### Core Biographical
+- Student ID
+- SEVIS number
+- Citizenship
+- Immigration status
+- Gender
+- Date of birth
+
+![Core Biographical](images/core-biographical.png)
 
 ### Name Records
 The system maintains multiple name fields to accommodate various official documents:
@@ -22,14 +34,6 @@ The system maintains multiple name fields to accommodate various official docume
 - **SEVIS preferred name**
 - **SEVIS principal name**
 - **Institution principal name**
-
-### Core Information
-- Student ID
-- SEVIS number
-- Citizenship
-- Immigration status
-- Gender
-- Date of birth
 
 ### Contact and Location
 - Communication preferences
