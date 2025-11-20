@@ -14,19 +14,34 @@ Exercise extreme caution when deleting any information. You must have express ap
 
 ![Record Management Biographical](images/record-management-biographical.gif)
 
-This subsection manages a student's core personal information, including:
+This subsection manages a student's core personal information.
 
 ### Core Biographical
+
+Core Biographical encompases basic university identification information, some relevant categories are: 
+
+- Name
 - Student ID
 - SEVIS number
 - Citizenship
 - Immigration status
-- Gender
-- Date of birth
 
 ![Core Biographical](images/core-biographical.png)
 
-### Name Records
+### Extended Biographical
+
+Extended Biographical goes a little deeper and will list more personal data relevant to teh individual, 
+some sections are:
+
+- Gender
+- Date of Birth
+- City of Birth
+- Ethnicity
+- Marital Status
+
+![Extended Biographical](images/extended-biographical.png)
+
+### Name Management
 The system maintains multiple name fields to accommodate various official documents:
 - **Passport name**
 - **Institution preferred name**
@@ -35,13 +50,13 @@ The system maintains multiple name fields to accommodate various official docume
 - **SEVIS principal name**
 - **Institution principal name**
 
-### Contact and Location
-- Communication preferences
-- Current and permanent addresses
-- Emergency contacts
+![Name Management](images/name-management.png)
 
-### Dependents
-Information about any dependents accompanying the student
+### Other categories
+- Dependents
+- Addresses
+- Contacts
+
 
 ## I-20 and DS-2019 Subsections
 
@@ -61,12 +76,14 @@ These two subsections are structurally identical but differ based on the student
 The **Document Management** section contains scanned images and PDFs of physical documents. The **Immigration Documents** subsection in **Record Management** contains the typed data extracted from those documents, stored as database entries and synced with SEVIS.
 :::
 
-### Data Stored
+
 This subsection maintains structured information including:
 - **Visa details** - Visa type, number, expiration dates
 - **Passport information** - Number, issue and expiration dates
 - **I-94 records** - Admission number and authorized stay period
 - **External immigration documents** - Additional relevant documentation
 - **Sponsored student information** - Details about financial sponsors
+
+![Immigration Documents](images/immigration-documents.png)
 
 All this information is formatted as database records and synchronized with the SEVIS (Student and Exchange Visitor Information System) database maintained by the U.S. government.
