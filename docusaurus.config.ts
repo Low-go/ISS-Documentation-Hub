@@ -94,7 +94,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'}, // add back later when customized for the office
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Low-go/ISS-Documentation-Hub',
           label: 'GitHub',
           position: 'right',
         },

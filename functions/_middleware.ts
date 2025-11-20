@@ -4,6 +4,15 @@ interface Env {
 
 export const onRequest: PagesFunction<Env> = async (context) => {
   const { request } = context;
+
+  const country = request.cf?.country || "XX";
+  if (country !== "US") {
+    return new Response("Access denied from your location", { 
+      status: 403,
+      headers: { 'Content-Type': 'text/plain' }
+    });
+  }
+
   const url = new URL(request.url);
   const cookie = request.headers.get('Cookie') || '';
   
@@ -24,7 +33,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         status: 302,
         headers: {
           'Location': '/',
-          'Set-Cookie': 'auth=valid; Path=/; HttpOnly; Secure; Max-Age=86400; SameSite=Strict'
+          'Set-Cookie': 'auth=valid; Path=/; HttpOnly; Secure; Max-Age=20000; SameSite=Strict'
         }
       });
     } else {
