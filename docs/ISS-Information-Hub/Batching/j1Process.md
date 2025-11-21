@@ -28,13 +28,17 @@ You will start batching in this order: \
 You can check the Student's **Maritial Status** in PeopleSoft under *personal information.*
 ::: 
 
-## Dependant Information
+------------------------------------------------------------------------------------
+
+## DS-2019 Dependant Information
 
 Click on DS-2019 **Dependant Information**, and if there are no dependents, "Approve" by clicking the green tick at the top. It is important that you do not send an email once you approve. Simply close the window when it pops up.
 
 ![Process](images\dependantInfo.gif)
 
-## Personal Information
+------------------------------------------------------------------------------------------------------------
+
+## DS-2019 Personal Information
 
 Click on DS-2019 **Personal Information**. If you haven't opened their passport page you can do so now. Click on **Apply Template** (the blue arrow in the toolbar) and select *Personal Information*. You will be prompted 2 times; simply click "YES" both times and apply the template. When a list of items show up, click "CTRL + A" to select all and apply. 
 
@@ -45,6 +49,135 @@ If the student is a returning student or a cancellation student from a previous 
 Start by going in order of the tabs openned: \
 *Core Biographical ⮕ Communication ⮕ Addresses ⮕ Passport ⮕ etc*
 
-*insert gif here*
+**PLACEHOLDER PUT GIF HERE!!!**
+
+------------------------------------------------------------------------------------------------------------
+
+### Core Biographical
+- Set Program Status: **J-1**
+- Set Immigration Status: **J-1 Exchange Visitor**
+- Save! 
+
+:::warning Check Student ID
+Ensure that the student's **program status, citizenship and NetworkID** is accurate. Cross-reference with the respective monday board.
+::: 
+
+------------------------------------------------------------------------------------------------------------
+
+### Communication
+- Set US Phone number as <span style={{ color: "#fc90fc" }}>**8086753516**</span>
+- Save!
+
+------------------------------------------------------------------------------------------------------------
 
 
+### Addresses
+<u>1. Foreign Address</u>
+- The template automatically applies their Foreign address in this field, simply **duplicate** their foreign address and change it's type to **MAILING ADDRESS**.
+
+<u>2. Mailing Address</u>
+- Ensure information is identical to Foreign Address
+
+<u>3. SEVIS US Residential Address & Mailing Address</u>
+- Click the Green + at the toolbar \
+![Toolbar](images\toolbarAdd.png)
+- Choose **Type: SEVIS US Residential Address**
+<span style={{ color: "#fc90fc" }}>
+- Address:
+  - **55-220 KULANUI ST** 
+  - **LAIE**
+  - **HI**
+  - **96762**
+  - **UNITED STATES**
+</span>
+- Once done copy-pasting, duplicate SEVIS US Residential Address \
+![Toolbar](images\toolbarDupe.png)
+- Add Street 2:
+    - <span style={{ color: "#fc90fc" }}>**Bldg 5**</span>
+- Save!
+
+Once you finish, there should be 4 sections \
+![4sections](images\4sections.png)
+
+------------------------------------------------------------------------------------------------------------
+
+### Passport
+- Enter **Passport Country**, cross reference with Passport submitted by student (Remember to remove any spaces before saving!)
+- Verify Passport Number with Passport PDF
+- Verify Issue Date and Expiration Date
+- Save!
+
+:::tip Dates
+Some countries go by DD/MM/YYYY or even YYYY/MM/DD. please verify the passport information via MRZ or through passport information
+::: 
+
+------------------------------------------------------------------------------------------------------------
+
+### Name Management
+- Use MRZ (Machine-Readable Zone) on passport.  
+- Enter names exactly as shown (after country code).  
+- **ALL CAPS**, **no special characters or dashes**.
+
+**Name Type Sequence**
+1. Actual Passport Name → **Save** → **Duplicate**
+2. Institution Preferred Name → Save → Duplicate  
+3. Institution Principal Name → Save → Duplicate  
+4. SEVIS Passport Name  
+   - Paste first name **after** last name  
+   - Save → Duplicate  
+5. SEVIS Preferred Name  
+   - Cut first displayed name (last name) and paste **after** given name  
+   - Save → Duplicate  
+6. SEVIS Principal Name  
+   - Copy/paste correct names into fields  
+   - Save
+
+Once you finish, there should be **6 Sections** \
+![6 Sections](images/nameManagementSection.png)
+
+------------------------------------------------------------------------------------------------------------
+
+### Extended Biographical 
+- Select **Gender** (Male/Female).  
+- Select **SEVIS Sex**(Male/Female).  
+- Verify remaining fields.  
+- Set:  
+  - **Citizenship Status: Native**  
+  - **Residency: Resident**
+  - **Marital Status: From PeopleSoft**  
+- Click **Save**.
+
+Once all information has been verified, simply go back to **"Initial DS-2019 Request Form"**, click **"Personal Information"** and click the <span style={{ color: "lightgreen" }}>**GREEN CHECK**</span>
+
+------------------------------------------------------------------------------------------------------------
+
+## DS-2019 Financial Information
+- Click DS-2019 Financial Information
+- Apply template just like before, but this time choose DS-2019 Financial Information
+- Open IWORK or PAS Scholarship Funding Letter if you have not opened it yet, it can be found in:
+    - Document Management ⮕ Student Documents ⮕ Financial & Insurance ⮕ Finances
+
+
+<div style={{ marginLeft: "40%", textDecoration: "underline" }}>
+### IWORK 
+</div>
+
+- Please note to always **DOUBLE CHECK** this information
+- The exact calculations are as follow:
+    - Program Sponsor Funds: IWORK/yr 23000 x 4 years=92,000 (stays the same for everyone) 
+
+    - Personal Funds: Family Contribution 600 x 4 years = 2400 (please calculate)!  
+
+    - IWORK Student Employment: (150864 –92000) = 58,864 - 2400 = 56464 (please calculate)!   
+
+| Description               | Amount (4 years) ($) |
+|---------------------------|------------|
+| Total Cost of Attendance  | 150,864    |
+| Program Sponsor Funds     | 92,000     |
+| Personal Funds (Family)   | 2,400      |
+| IWORK Student Employment  | 56,464     |
+
+
+<div style={{ marginLeft: "30%", textDecoration: "underline" }}>
+### Presidential/Full Scholarship
+</div>
