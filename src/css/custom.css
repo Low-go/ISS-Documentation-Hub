@@ -42,6 +42,11 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(186, 12, 47, 0.1);
 
+
+  /*Custom Colors, present regardless of light/dark mode*/
+  --copy-paste-color: #ff51ff;
+  --green-checkmark: #41ce41;
+  --changable-value: #ff7300;
   --byuh-gray: #f0f1f2;
 }
 
@@ -57,5 +62,9 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 
+
+  /*Custom Colors, present regardless of light/dark mode*/
+  --copy-paste-color: #fc90fc;
   --byuh-gray: #c1c6c8;
+
 }
